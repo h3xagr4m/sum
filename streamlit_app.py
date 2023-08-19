@@ -14,7 +14,7 @@ from langchain.callbacks import get_openai_callback
 from langchain.chains.summarize import load_summarize_chain
 from langchain.docstore.document import Document
 
-st.set_page_config(page_title="Sumquiry ", page_icon=":robot:")
+st.set_page_config(page_title="GANGANG ", page_icon=":robot:")
 
 openai.api_key = st.secrets["openai_secret_key"]
 
@@ -47,7 +47,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     
     add_vertical_space(5)
-    st.markdown("<p> Strapped up <a href='https://www.kovalent.no'>hehehehehee</a> </p>", unsafe_allow_html=True)
+    st.markdown("<p> Strapped up <a href='https://www.kovalent.no'>dark_tangent/h3xagr4m</a> </p>", unsafe_allow_html=True)
 
 # Clear input text
 def clear_text():
