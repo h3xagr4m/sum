@@ -47,7 +47,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     
     add_vertical_space(5)
-    st.markdown("<p> Made by <a href='https://omaresguerra.github.io'>Omar Esguerra</a> </p>", unsafe_allow_html=True)
+    st.markdown("<p> Strapped up <a href='https://www.kovalent.no'>hehehehehee</a> </p>", unsafe_allow_html=True)
 
 # Clear input text
 def clear_text():
