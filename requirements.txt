@@ -6,3 +6,4 @@ langchain
 PyPDF2
 tiktoken
 faiss-cpu
+libgl1
