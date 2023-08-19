@@ -16,7 +16,7 @@ from langchain.docstore.document import Document
 
 st.set_page_config(page_title="Sumquiry ", page_icon=":robot:")
 
-openai.api_key = st.secrets["openai_secret_key"]
+openai.api_key = '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'
 
 page_bg = f"""
 <style>
