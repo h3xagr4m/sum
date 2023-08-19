@@ -76,7 +76,7 @@ if pdf is not None:
       
     # create docs
     docs = [Document(page_content=t) for t in chunks[:3]]
-    llm = OpenAI(temperature=0, openai_api_key=st.secrets["openai_secret_key"])
+    llm = OpenAI(temperature=0, openai_api_key='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')
 
     # show summarize doc
     chain = load_summarize_chain(llm, chain_type="map_reduce")
@@ -85,7 +85,7 @@ if pdf is not None:
     st.write(summarized_docs)
 
     # create embeddings
-    embeddings = OpenAIEmbeddings(openai_api_key=st.secrets["openai_secret_key"])
+    embeddings = OpenAIEmbeddings(openai_api_key='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')
     knowledge_base = FAISS.from_texts(chunks, embeddings)
 
     # show user input
